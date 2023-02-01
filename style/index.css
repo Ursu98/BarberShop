@@ -1,0 +1,89 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background-color: #3b322d;
+}
+.head-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+}
+.head-container__nav-bar {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar__logo {
+  display: flex;
+  align-items: center;
+}
+.nav-bar__logo > img {
+  margin: 0 18.2px 0 0;
+  max-height: 45px;
+}
+.nav-bar__logo > p {
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #efe7e2;
+  margin: 0 70px 0 0;
+}
+.nav-bar__other {
+  display: flex;
+  align-items: center;
+}
+.nav-bar__other > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 135%;
+  color: #efe7e2;
+  margin: 0 40px 0 0;
+}
+.nav-bar__location {
+  display: flex;
+  align-items: center;
+}
+.nav-bar__location > p {
+  max-width: 100px;
+  font-weight: 400;
+  line-height: 135%;
+  color: #efe7e2;
+  margin: 0 15px 0 0;
+}
+.nav-bar__location > img {
+  max-width: 36px;
+  max-height: 36px;
+  margin: 0 42px 0 0;
+}
+.nav-bar__phone {
+  display: flex;
+  align-items: center;
+}
+.nav-bar__phone > img {
+  max-width: 36px;
+  max-height: 36px;
+}
+.phone__number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.phone__number > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 152%;
+  color: #ffffff;
+  margin: 0 15px 0 0;
+}
+.phone__number > p + p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #efe7e2;
+  margin: 0 15px 0 0;
+}
